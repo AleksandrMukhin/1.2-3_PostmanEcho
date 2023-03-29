@@ -12,7 +12,7 @@ public class PostmanEcho {
 // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .contentType("text/plain; charset=UTF-8")
+               // .contentType("text/plain; charset=UTF-8")
                 .body("Ежи появились на Земле около 58 миллионов лет назад") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
